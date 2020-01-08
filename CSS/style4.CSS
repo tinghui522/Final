@@ -321,6 +321,13 @@ nav{
 .nav-links li{
     opacity: 0;
 }
+#content a{
+  color: rgb(29, 29, 29);
+}
+
+#content a:hover{
+  color:#711FFF;
+}
 .nav-links li:nth-child(1){
     transition:all 0.5s ease 0.15s;
 }
