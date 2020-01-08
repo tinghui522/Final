@@ -1,7 +1,4 @@
 @media screen and (max-width:1920px){
-
-  
-
   body{
     font-family:sans-serif;
     background-color: rgb(255, 255, 255);
@@ -584,7 +581,13 @@ transform : scale(1.2);
 .navsquare{
   height: 16vw;
 }
+#content a{
+  color: rgb(29, 29, 29);
+}
 
+#content a:hover{
+  color:#711FFF;
+}
 .cp{
   display:none;
 }

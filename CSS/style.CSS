@@ -364,7 +364,13 @@ footer{
         text-decoration: none;
         font-size: 5vw;
       }
-    
+      #content a{
+        color: rgb(29, 29, 29);
+      }
+      
+      #content a:hover{
+        color:#711FFF;
+      }
     .bigpics{
     display:none;
     }

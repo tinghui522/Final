@@ -418,6 +418,13 @@ transform : scale(1.2);
     text-decoration: none;
     font-size: 5vw;
   }
+  #content a{
+    color: rgb(29, 29, 29);
+  }
+  
+  #content a:hover{
+    color:#711FFF;
+  }
   .concert{
     width:95%;
     position: relative;

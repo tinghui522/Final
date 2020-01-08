@@ -1,7 +1,4 @@
 @media screen and (max-width:1920px){
-
-  
-
   body{
     font-family:sans-serif;
     background-color: rgb(255, 255, 255);
@@ -313,15 +310,15 @@ nav{
     position: fixed;
     cursor: pointer;
     top:5vw;
-    right: 35%;
+    right: 51%;
     /* top: 50%; */
     transform: translate(-5%,-50%);
-    z-index: 15;
+    z-index: 16;
 } 
 
 .navsquare{
   height: 9.9vw;
-  width:200%;
+  width:100%;
 }
 
 .nav-title{
@@ -391,7 +388,7 @@ li.fade{
   
   .lookiu{
     position: relative;
-    width:132%;
+    width:100%;
     left:0vw;
     z-index:1;
   }
@@ -488,9 +485,9 @@ li.fade{
   .mcircle{
     position: relative;
     z-index:1;
-    top:-275vh;
+    top:-255vh;
     width:20vw;
-    left:112vw;
+    left:80vw;
   }
   /*.oneeyeiu{
     position: relative;
@@ -502,7 +499,7 @@ li.fade{
     position: relative;
     width:200%;
     top:-113vh;
-    right:35vw;
+    right:50vw;
     z-index:1;
   }
   
@@ -585,7 +582,7 @@ li.fade{
     font-weight: bold;
     font-size: 2.5vw;
     position: relative;
-    top:-72vh;
+    top:-75vh;
     left:45vw;
     color: #711FFF;
   }
@@ -593,7 +590,7 @@ li.fade{
   footer{
     position: relative;
     top: -50vh;
-    left:50vw;
+    left:35vw;
     width: 100vw;
     height: 8vw;  
   }
@@ -630,10 +627,10 @@ li.fade{
   position: fixed;
   cursor: pointer;
   top:8.5vw;
-  right: 35%;
+  right: 20%;
   /* top: 50%; */
   transform: translate(-5%,-50%);
-  z-index: 11;
+  z-index: 16;
 } 
 .nav-title{
   display:flex;
@@ -662,7 +659,14 @@ li.fade{
   height: 16vw;
 }
   
-  .lookiu{
+#content a{
+  color: rgb(29, 29, 29);
+}
+
+#content a:hover{
+  color:#711FFF;
+}
+.lookiu{
     position: relative;
     width:100%;
     left:0vw;
@@ -676,7 +680,7 @@ li.fade{
     display:none;
   }
   .bcircle{
-    width:152vw;
+    width:125vw;
     /*height:75vh;*/
     position: relative;
     top:5vh;
@@ -685,7 +689,7 @@ li.fade{
   .licircle{
     position: relative;
     z-index:1;
-    top:-118vh;
+    top:-120vh;
     left:7vw;
     z-index:1;
     width:9vw;
@@ -707,17 +711,17 @@ li.fade{
   }
     
   .video-container iframe, .video-container object, .video-container embed {
-    width: 80vw;
-    height: 50vw;
+    width: 65vw;
+    height: 45vw;
     position: relative;
     top: -120vh;
-    left: 10vw;
+    left: 6vw;
   }
 
   .Album1{
     position: relative;
-    top:-75vh;
-    left:6vw;
+    top:-72vh;
+    left:5vw;
     z-index:2;
     width:35vw;
   }
@@ -741,7 +745,7 @@ li.fade{
     line-height: 1.5;
     position: relative;
     top:-70vh;
-    left:13vw;
+    left:6vw;
     color: rgb(243, 243, 243);
     z-index:2;
   }
@@ -755,7 +759,7 @@ li.fade{
   .oneeyeiu{
     position: relative;
     width:200%;
-    top:-65vh;
+    top:-80vh;
     right:50vw;
   }
   .word{
@@ -763,7 +767,7 @@ li.fade{
     font-family: Segoe UI;
     font-weight:750;
     font-size: 2vw; 
-    top:-82vh;
+    top:-100vh;
     left:1.5vw; 
   }
 
@@ -777,13 +781,13 @@ li.fade{
     width: 80vw;
     height: 50vw;
     position: relative;
-    top: -80vh;
+    top: -100vh;
     left: 12vw;
   }
 
   .Album2{
     position: relative;
-    top:-30vh;
+    top:-45vh;
     left:12vw;
     z-index:2;
     width:35vw;
@@ -803,21 +807,21 @@ li.fade{
     font-weight:750;
     font-size: 14vw;
     position: relative;
-    top:0vh;
+    top:-10vh;
     left:12vw;
   }
   
   .PALsong{
     font-size: 4vw;
     position: relative;
-    top:-35vh;
+    top:-45vh;
     left:13vw;
     color: #711FFF;
   }
   
   footer{
     position: relative;
-    top: -25vh;
+    top: -30vh;
     left:18vw;
     width: 100vw;
     height: 20vw;  
