@@ -85,6 +85,7 @@ nav{
     background-size: cover;
     display: grid;
     justify-content: center;
+    z-index: 2;
 }
 
 .IMIU{
