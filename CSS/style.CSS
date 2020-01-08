@@ -151,39 +151,36 @@ nav{
     position: relative;
 }
 
-
-
 footer{
     position: fixed;
-    /* margin-top: 4.69vw; */
+    top: 90vh;
+    left:42vw;
     width: 100vw;
-    height: 10vw; 
-    top: 85%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     background-color: white;
     overflow-y: hidden;
- }
- .icon{
-    padding-right: 1.5vw;
-    padding-bottom: 1.5vw;
+  }
+  
+  .icon{
     width:3.5vw;
     height: 3.5vw;
- }
- 
- .icon:hover{
+    position: relative;
+    left:1.5vw;
+    padding-right: 1.5vw;
+    padding-bottom: 1.5vw;
+  }
+  
+  .icon:hover{
   transform : scale(1.2);
-}
-.footerword{
+  }
+  .footerword{
     font-family: Segoe UI;
     font-size: 0.9vw;
     color:#000000;
-    position: relative;
-    top:-1vw;
-}
-
+  }
  
 @media screen and (max-width:768px){
     .line{
